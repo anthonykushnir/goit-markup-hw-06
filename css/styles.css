@@ -469,11 +469,11 @@ footer .logo .partoflogo{
     height: 40px;
 }
 
-.socials-list-item:hover{
+.socials-list-item :hover{
     background-color: #31d0aa;
 }
 
-.socials-list-item:focus{
+.socials-list-item :focus{
     background-color: #31d0aa;
 }
 
