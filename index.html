@@ -33,12 +33,12 @@
                 </address>
             </div>
         </header>
-        <!-- Section 1 -->
-        <main>    
+        <main>
+        <!-- Section 1 -->    
             <section class="order">
                 <div class="container">
                     <h1 class="main-headline">Effective Solutions for Your Business</h1>
-                    <button type="button" class="button">Order Service</button>
+                    <a href="#myModal"><button type="button" class="button">Order Service</button></a>
                 </div>
             </section>
 
@@ -236,6 +236,7 @@
                     </ul>
                 </div>
             </section>
+
         <!-- Section 4 -->
             <section class="portfolio">
                 <div class="container">
@@ -359,13 +360,15 @@
             </div>
             </div>
         </footer>
-        <div class="modal-window-container">
+        <div class="modal-window-container" id="myModal">
             <div class="modal-window">
-                <button type="button" class="modal-close-button">
+                <a href="#">
+                    <button type="button" class="modal-close-button">
                     <svg width="8" height="8" class="modal-svg">
                         <use href="./images/icons.svg#icon-vector"></use>
                     </svg>
-                </button>
+                    </button>
+                </a>
                 <p class="modal-p">
                     Leave your contacts and we will call you back
                 </p>
