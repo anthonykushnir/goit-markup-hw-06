@@ -17,9 +17,10 @@ p{
 }
 
 img {
-    display: block;
+    display: flex;
     max-width: 100%;
     height: auto;
+    
 }
 
 button{
@@ -195,7 +196,7 @@ header .logo .partoflogo{
 
 .brand{
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
  
 }
 
@@ -242,6 +243,9 @@ header .logo .partoflogo{
 .list-team{
     display: flex;
     gap: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .teammates{
@@ -326,6 +330,7 @@ header .logo .partoflogo{
 .list-portfolio{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     column-gap: 24px;
     row-gap: 48px;
     margin: 0;
@@ -337,6 +342,7 @@ header .logo .partoflogo{
 }
 
 .list-portfolio-item{
+
     flex-basis: calc((100% - 48px)/3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -374,9 +380,11 @@ header .logo .partoflogo{
 }
 
 .small{
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .medium{
@@ -385,7 +393,7 @@ header .logo .partoflogo{
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
-
+    text-align: left;
 }
 
 .button{
@@ -446,6 +454,8 @@ footer .logo .partoflogo{
 
 .div-footer{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: baseline;
 }
 
@@ -496,6 +506,8 @@ footer .logo .partoflogo{
 
 .footer-form{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
