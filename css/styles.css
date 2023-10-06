@@ -91,6 +91,7 @@ header .logo .partoflogo{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    width: 288px;
 }
 
 .nav{
@@ -439,11 +440,13 @@ header .logo .partoflogo{
 }
 
 footer .logo{
-    display: inline-block;
+    display: flex;
     margin-bottom: 16px;
     padding: 0;
     margin: 0;
     margin-bottom: 16px;
+    text-align: center;
+    align-items: center;
 }
 
 footer .logo .partoflogo{
@@ -464,13 +467,17 @@ footer .logo .partoflogo{
 
 .div-footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: baseline;
 }
 
+.footer-div-socials{
+    align-self: center;
+}
+
 .footer-div-info{
-    margin-right: 120px;
+    margin-bottom: 72px;
 }
 
 .footer-div-socials-p{
@@ -480,6 +487,7 @@ footer .logo .partoflogo{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .socials-list{
@@ -508,10 +516,11 @@ footer .logo .partoflogo{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 .footer-form-div{
-    margin-left: auto;
+    margin-top: 72px;
 }
 
 .footer-form{
