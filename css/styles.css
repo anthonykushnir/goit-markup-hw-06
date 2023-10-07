@@ -171,7 +171,7 @@ header .logo .partoflogo{
 
 .order{
     background-color: #2e2f42;
-    padding-top: 128px;
+    padding-top: 72px;
     padding-bottom: 188px;
     height: 432px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -189,9 +189,9 @@ header .logo .partoflogo{
     text-align: center;
     line-height: 1.07;
     color: #ffffff;
-    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
+    max-width: 169px;
 }
 
 
@@ -447,6 +447,7 @@ footer .logo{
     margin-bottom: 16px;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 footer .logo .partoflogo{
