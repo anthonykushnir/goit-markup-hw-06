@@ -19,8 +19,7 @@ p{
 img {
     display: block;
     max-width: 100%;
-    height: auto;
-    
+    height: auto;   
 }
 
 button{
@@ -89,8 +88,6 @@ header .logo .partoflogo{
 
 .container{
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
     width: 288px;
 }
 
@@ -772,4 +769,43 @@ span{
 
 .brand h2{
     max-width: 288px;
+}
+
+.menu-icon{
+}
+
+.menu-svg{
+
+}
+
+.modal-menu-container{
+
+}
+
+.modal-menu{
+
+}
+
+.modal-menu-list{
+    
+}
+
+.modal-menu-item{
+
+}
+
+.modal-adress{
+
+}
+
+.modal-conts-menu{
+
+}
+
+.modal-menu-item{
+    
+}
+
+.modal-conts{
+    
 }
