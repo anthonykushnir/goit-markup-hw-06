@@ -76,9 +76,8 @@ header .logo .partoflogo{
 .div-header{
     display: flex;
     border-bottom: 1px solid #e7e9fc;
-    height: 56px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    padding: 24px;
+    padding: 20px 0;
     
 }
 
@@ -88,7 +87,9 @@ header .logo .partoflogo{
 
 .container{
     margin: 0 auto;
-    width: 288px;
+    width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .nav{
@@ -193,14 +194,14 @@ header .logo .partoflogo{
 
 
 .brand{
-    padding-top: 120px;
-    padding-bottom: 0px;
+    padding-top: 96px;
+    padding-bottom: 96px;
  
 }
 
 .list-brand{
     display: flex;
-    flex-direction: row;
+    gap: 72px;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -215,9 +216,7 @@ header .logo .partoflogo{
 }
 
 .list-brand-item{
-    padding-bottom: 72px;
     width: 288px;
-    flex-basis: 288px;
 }
 
 .icon{
@@ -243,12 +242,12 @@ header .logo .partoflogo{
     gap: 24px;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: stretch;
+    justify-content: center;
 }
 
 .teammates{
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) 4);
+    width: 264px;
     border-radius: 0px 0px 4px 4px;
     box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -306,7 +305,7 @@ header .logo .partoflogo{
     color: #2E2F42;
     line-height: 1.11;
     text-transform: capitalize;
-    margin-bottom: 96px;
+    margin-bottom: 72px;
 }
 
 .brand .section-headline{
@@ -464,7 +463,6 @@ footer .logo .partoflogo{
 }
 
 .div-footer{
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: baseline;
@@ -522,7 +520,6 @@ footer .logo .partoflogo{
 }
 
 .footer-form{
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
@@ -786,6 +783,10 @@ span{
 
 }
 
+.modal-menu-nav{
+
+}
+
 .modal-menu-list{
     
 }
@@ -798,7 +799,7 @@ span{
 
 }
 
-.modal-conts-menu{
+.modal-menu-conts{
 
 }
 
@@ -806,6 +807,6 @@ span{
     
 }
 
-.modal-conts{
+.modal-menu-conts-item{
     
 }
