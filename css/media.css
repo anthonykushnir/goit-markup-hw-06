@@ -1,3 +1,12 @@
+@media (min-resolution: 192dpi) {
+  .order {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpg);
+  }
+}
+
+.order{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+}
 @media screen and (max-width: 767px) {
     body{
         font-family: 'Roboto', sans-serif;
@@ -72,7 +81,6 @@
     header .logo .partoflogo{
         color: #2e2f42;
     }
-    
     
     .div-header{
         display: flex;
@@ -173,7 +181,7 @@
         padding-top: 72px;
         padding-bottom: 72px;
         height: 432px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -792,6 +800,7 @@
     }
     
     .modal-menu{
+        display: flex;
         position: absolute;
         flex-direction: column;
         height: 100%;
@@ -806,21 +815,34 @@
     
     .modal-menu-nav{
         align-items: center;
+        margin-bottom: auto;
     }
     
     .modal-menu-list{
         text-decoration: none;
         gap: 40px;
+        margin-top: 64px;
+        margin-left:16px;
+    }
+    
+    .modal-menu a{
         color:#2E2F42;
+    }
+
+    .modal-menu-list :first-child a{
+        color: #404BBF;
+    }
+
+    .modal-menu-conts :first-child a{
+        color: #404BBF;
+    }
+
+    .modal-menu-item{
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.02em;
         text-align: left;
-    }
-    
-    .modal-menu-item{
-    
     }
     
     .modal-address{
@@ -829,12 +851,14 @@
     
     }
     
-    .modal-menu-conts{
+    .modal-menu-conts a{
         gap: 40px;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
+        margin-left:16px;
+        margin-bottom: 8px;
         text-align: left;
     }
     
@@ -843,11 +867,17 @@
     }
     
     .modal-menu-conts-item{
-        
+         
     }
-    .address{
+    .modal-address{
+        margin-left:0;
     }
     
+    .modal-menu .footer-div-socials{
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+
     .modal-conts{
         font-size: 16px;
         line-height: 1.5;
@@ -1218,7 +1248,7 @@
     }
     
     .list-portfolio-item{
-        flex-basis: calc((100% - 48px)/2);
+        flex-basis: 356px;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
@@ -1339,10 +1369,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
+        margin: 0 auto;
+        padding-left: 120px;
     }
     
     .footer-div-socials{
-        align-self: center;
+        margin-left: 32px;
     }
     
     .footer-div-info{
@@ -1356,7 +1388,6 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
         margin-bottom: 16px;
-        text-align: center;
     }
     
     .socials-list{
@@ -1385,11 +1416,10 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #ffffff;
-        text-align: center;
     }
     
     .footer-form-div{
-        margin-top: 72px;
+        
     }
     
     .footer-form{
@@ -1428,7 +1458,6 @@
         border: none;
         border-radius: 4px;
         margin: auto;
-        margin-top: 24px;
     }
     
     .footer-form-svg{
